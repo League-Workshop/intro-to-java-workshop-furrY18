@@ -11,7 +11,7 @@ public class AwesomeOrNot {
 	// 3. Print out this variable
 
 	// 4. Get the user to enter something that they think is awesome
-
+JOptionPane.showInputDialog(null , "enter something you think is awesome");
 	// 5. If the random number is 0
 
 	// -- tell the user whatever they entered is awesome!
