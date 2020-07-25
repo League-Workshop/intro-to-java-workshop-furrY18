@@ -10,7 +10,7 @@ public class DragonFight {
 		
 		ImageIcon dragon = new ImageIcon("src/section4/dragonPicture.jpg");		
 		
-		JOptionPane.showMessageDialog(null, "Defeat the dragon to take its treasurxfae!", "Dragon Fighter", 0, dragon);
+		JOptionPane.showMessageDialog(null, "Defeat the dragon to take its treasure!", "Dragon Fighter", 0, dragon);
 		// 2. Create a variable called "playerHealth" to store your health (set it equal to 100)
 		int playerHealth = 100;
 		// 3. Create a variable called "dragonHealth" to store the dragon's health (set it equal to 100)
@@ -31,7 +31,7 @@ public class DragonFight {
 	if (Input.equals("yell")){
 			//-- Find a random number between 0 and 10 and store it in dragonDamage
 			Random rand=new Random();
-			rand Object:nextInt(10);
+			ranInt(10);
 			//-- Subtract that number from the dragon's health variable 
 			
 		// 10. If they typed in "kick":
